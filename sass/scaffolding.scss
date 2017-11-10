@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 14px;
+  font-family: 'robotoregular', Arial, sans-serif;
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+  padding: 0 55px;
+
+  @include desktop {
+    width: 970px;
+    padding: 0 10px;
+  }
+
+  @include laptop {
+    width: 750px;
+  }
+
+  @include tablets {
+    width: 480px;
+  }
+
+  @unclude phones {
+    width: 320px;
+  }
+}
+
+ul {
+  list-style: none;
+}

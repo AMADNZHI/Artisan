@@ -1,0 +1,306 @@
+.page-header {
+	border-bottom: 1px solid #4991cc;
+	padding-bottom: 37px;
+}
+
+.page-header__wrapper {
+	display: flex;
+}
+
+.page-header__logo {
+  position: relative;
+	padding-top: 32px;
+}
+
+.logo-img {
+	width: 170px;
+	height: 64px;
+
+	@include tablets {
+	  width: 100px;
+	}
+}
+
+.logo-img__pic {
+	width: 170px;
+	height: 64px;
+
+	@include tablets {
+	  width: 100px;
+	}
+}
+
+.logo-descr {
+	padding-top: 10px;
+}
+
+.logo-descr span {
+	position: absolute;
+	display: block;
+	content: "";
+	width: 60px;
+	top: 85px;
+	right: 0;
+	text-transform: uppercase;
+	font-size: 12px;
+	color: #1f3d73;
+	font-family: 'robotomedium', Arial, sans-serif;
+	text-align: right;
+}
+
+.logo-descr__text {
+	font-size: 10px;
+  font-family: 'robotoregular', Arial, sans-serif;
+  color: #adb0b6;
+  text-transform: uppercase;
+  text-align: right;
+}
+
+.page-header__contacts {
+	width: 430px;
+	padding-top: 50px;
+
+	@include desktop {
+	  width: 300px;
+	}
+
+	@include laptop {
+	  width: 150px;
+	}
+}
+
+.page-header__departments {
+	display: flex;
+
+	@include laptop {
+	  display: block;
+	}
+}
+
+.page-header__contacts-project {
+	width: 220px;
+	border-right: 1px solid #adb0b6;
+	padding-left: 58px;
+
+	@include desktop {
+	  width: 150px;
+	  padding-left: 8px;
+	}
+
+	@include laptop {
+	  border-right: 0;
+	}
+}
+
+.page-header__contacts-dealer {
+  width: 210px;	
+  padding-left: 46px;
+
+  @include desktop {
+    width: 150px;
+    padding-left: 6px;
+  }
+}
+
+.page-header__project-link {
+	display: block;
+	font-size: 14px;
+	font-family: 'robotoregular', Arial, sans-serif;
+	color: $blue;
+}
+
+.page-header__project-tel {
+	font-size: 14px;
+	font-family: 'robotoregular', Arial, sans-serif;
+	color: #343f53;
+}
+
+.page-header__dealer-link {
+	display: block;
+	font-size: 14px;
+	font-family: 'robotoregular', Arial, sans-serif;
+	color: $blue;
+}
+
+.page-header__dealer-tel {
+	font-size: 14px;
+	font-family: 'robotoregular', Arial, sans-serif;
+	color: #343f53;
+}
+
+.page-header__contacts-call {
+	padding: 20px 47px 0 0;
+	text-align: right;
+
+	@include laptop {
+	  text-align: left;
+	  padding-right: 0;
+	}
+}
+
+.page-header__contacts-link {
+	font-size: 14px;
+	font-family: 'robotoregular', Arial, sans-serif;
+	color: $blue;
+}
+
+.page-header__user {
+	width: 570px;
+	padding: 51px 0 0 15px;
+
+	@include desktop {
+	  width: 480px;
+	}
+
+	@include laptop {
+	  width: 410px;
+	}
+
+	@include tablets {
+	  padding-left: 0;
+	  width: 210px;
+	}
+}
+
+.page-header__user-block {
+	display: flex;
+}
+
+.page-header__cabinet {
+	width: 370px;
+
+	@include desktop {
+	  width: 270px;
+	}
+
+	@include laptop {
+	  width: 200px;
+	}
+
+	@include tablets {
+	  width: 40px;
+	}
+}
+
+.page-header__cabinet-link {
+  display: block;
+	width: 325px;
+	padding: 17px 0 17px 109px;
+	background: $blue url("../img/icon-sign-in.png") 23% 50% no-repeat;
+	font-size: 14px;
+	font-family: 'robotoregular', Arial, sans-serif;
+	color: white;
+	text-decoration: none;
+
+	@include desktop {
+	  width: 255px;
+	  padding: 17px 0;
+	  text-align: center;
+	  background: $blue url("../img/icon-sign-in.png") 10% 50% no-repeat; 
+	}
+
+	@include laptop {
+	  width: 200px;
+	  background: $blue url("../img/icon-sign-in.png") 3% 50% no-repeat; 
+	  text-align: left;
+	  padding-left: 40px;
+	}
+
+	@include tablets {
+	  width: 40px;
+	  font-size: 0;
+	}
+}
+
+.page-header__basket {
+	width: 200px;
+	padding-left: 30px;
+	display: flex;
+
+	@include tablets {
+	  width: 175px;
+	  padding-left: 5px;
+	}
+}
+
+.page-header__basket-link {
+	display: block;
+	width: 45px;
+	height: 45px;
+	background: $blue url("../img/icon-basket.png") 50% 50% no-repeat;
+
+	@include tablets {
+	  width: 40px;
+	  height: 40px;
+	}
+}
+
+.page-header__basket-info {
+	width: 125px;
+	padding-left: 12px;
+}
+
+.page-header__basket-text {
+	display: block;
+	font-size: 14px;
+	font-family: 'robotoregular', Arial, sans-serif;
+	color: #343f53;
+
+}
+
+.page-header__basket-quantity {
+	display: block;
+	font-size: 14px;
+	font-family: 'robotoregular', Arial, sans-serif;
+	color: $blue;
+
+	span {
+	  font-family: 'robotobold', Arial, sans-serif;
+	}
+}
+
+.page-header__basket-sum {
+	display: block;
+	font-size: 14px;
+	font-family: 'robotoregular', Arial, sans-serif;
+	color: #343f53;
+
+	span {
+	  font-family: 'robotobold', Arial, sans-serif;
+	}
+}
+
+.page-header__cooperation {
+	padding-top: 19px;
+}
+
+.page-header__cooperation-request {
+	display: block;
+	width: 225px;
+	margin-bottom: 17px;
+	font-size: 14px;
+	font-family: 'robotoregular', Arial, sans-serif;
+	color: $blue;
+
+	@include tablets {
+	  width: 210px;
+	}
+}
+
+.page-header__cooperation-mail {
+	display: block;
+	width: 225px;
+	height: 25px;
+	padding: 7px 0 0 40px;
+	font-size: 14px;
+	font-family: 'robotoregular', Arial, sans-serif;
+	color: $blue;
+	background: url("../img/icon-letter.png") 0 50% no-repeat;
+
+	@include tablets {
+	  width: 210px;
+	}
+}
+
+
+
