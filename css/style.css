@@ -607,7 +607,8 @@ a {
   @media screen and (max-width: 768px) {
     .page-header__cabinet-link {
       width: 40px;
-      font-size: 0; } }
+      font-size: 0;
+      background-position: 50% 50%; } }
 
 .page-header__basket {
   width: 200px;
