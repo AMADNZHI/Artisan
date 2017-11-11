@@ -284,6 +284,10 @@
 
 .page-header__cooperation {
 	padding-top: 19px;
+
+	@include phones {
+	  display: none;
+	}
 }
 
 .page-header__cooperation-request {
