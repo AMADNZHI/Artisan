@@ -172,6 +172,10 @@
 
 .page-header__user-block {
 	display: flex;
+
+	@include phones {
+	  display: block;
+	}
 }
 
 .page-header__cabinet {
