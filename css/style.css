@@ -397,7 +397,8 @@ html {
 .container {
   width: 1280px;
   margin: 0 auto;
-  padding: 0 55px; }
+  padding: 0 55px;
+  background: red; }
   @media screen and (max-width: 1200px) {
     .container {
       width: 970px;
