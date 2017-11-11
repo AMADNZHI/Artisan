@@ -168,6 +168,10 @@
 	  padding-left: 0;
 	  width: 210px;
 	}
+
+	@include phones {
+	  width: 40px;
+	}
 }
 
 .page-header__user-block {
