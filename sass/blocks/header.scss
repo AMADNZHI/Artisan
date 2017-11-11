@@ -10,6 +10,15 @@
 .page-header__logo {
   position: relative;
 	padding-top: 32px;
+  width: 170px;
+
+  @include tablets {
+    width: 100px;
+  }
+
+  @include phones {
+    width: 80px;
+  }
 }
 
 .logo-img {

@@ -427,7 +427,14 @@ ul {
 
 .page-header__logo {
   position: relative;
-  padding-top: 32px; }
+  padding-top: 32px;
+  width: 170px; }
+  @media screen and (max-width: 768px) {
+    .page-header__logo {
+      width: 100px; } }
+  @media screen and (max-width: 400px) {
+    .page-header__logo {
+      width: 80px; } }
 
 .logo-img {
   width: 170px;
