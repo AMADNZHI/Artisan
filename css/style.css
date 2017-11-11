@@ -411,8 +411,7 @@ html {
 
 @unclude phones {
   .container {
-    width: 320px;
-    overflow: hidden; } }
+    width: 320px; } }
 
 ul {
   list-style: none; }
@@ -436,6 +435,9 @@ ul {
   @media screen and (max-width: 768px) {
     .logo-img {
       width: 100px; } }
+  @media screen and (max-width: 400px) {
+    .logo-img {
+      width: 80px; } }
 
 .logo-img__pic {
   width: 170px;
@@ -443,6 +445,9 @@ ul {
   @media screen and (max-width: 768px) {
     .logo-img__pic {
       width: 100px; } }
+  @media screen and (max-width: 400px) {
+    .logo-img__pic {
+      width: 80px; } }
 
 .logo-descr {
   padding-top: 10px; }
@@ -621,6 +626,9 @@ ul {
 .page-header__basket-info {
   width: 125px;
   padding-left: 12px; }
+  @media screen and (max-width: 400px) {
+    .page-header__basket-info {
+      display: none; } }
 
 .page-header__basket-text {
   display: block;

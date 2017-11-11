@@ -19,6 +19,10 @@
 	@include tablets {
 	  width: 100px;
 	}
+
+	@include phones {
+	  width: 80px;
+	}
 }
 
 .logo-img__pic {
@@ -27,6 +31,10 @@
 
 	@include tablets {
 	  width: 100px;
+	}
+
+	@include phones {
+	  width: 80px;
 	}
 }
 
@@ -238,6 +246,10 @@
 .page-header__basket-info {
 	width: 125px;
 	padding-left: 12px;
+
+	@include phones {
+	  display: none;
+	}
 }
 
 .page-header__basket-text {
