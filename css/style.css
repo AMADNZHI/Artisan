@@ -415,6 +415,9 @@ html {
 ul {
   list-style: none; }
 
+a {
+  cursor: pointer; }
+
 .page-header {
   border-bottom: 1px solid #4991cc;
   padding-bottom: 37px; }
