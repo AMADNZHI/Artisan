@@ -27,7 +27,7 @@ html {
     width: 480px;
   }
 
-  @unclude phones {
+  @include phones {
     width: 320px;
   }
 }
