@@ -447,6 +447,7 @@ ul {
       width: 80px; } }
 
 .logo-img__pic {
+  display: block;
   width: 170px;
   height: 64px; }
   @media screen and (max-width: 768px) {
