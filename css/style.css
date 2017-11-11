@@ -558,11 +558,17 @@ ul {
     .page-header__user {
       padding-left: 0;
       width: 210px; } }
+  @media screen and (max-width: 400px) {
+    .page-header__user {
+      width: 40px; } }
 
 .page-header__user-block {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
+  @media screen and (max-width: 400px) {
+    .page-header__user-block {
+      display: block; } }
 
 .page-header__cabinet {
   width: 370px; }
@@ -654,6 +660,9 @@ ul {
 
 .page-header__cooperation {
   padding-top: 19px; }
+  @media screen and (max-width: 400px) {
+    .page-header__cooperation {
+      display: none; } }
 
 .page-header__cooperation-request {
   display: block;
